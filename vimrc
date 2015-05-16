@@ -17,6 +17,10 @@ set background=dark
 "let g:fsharpbinding_debug = 1 
 let g:fsharp_xbuild_path = "/usr/bin/xbuild"
 
+" jsx
+let g:jsx_ext_required = 0
+let g:syntastic_javascript_checkers = ['jsxhint']
+
 " Space setup
 :set tabstop=4
 :set shiftwidth=4
