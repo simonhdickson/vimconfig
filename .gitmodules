@@ -31,3 +31,6 @@
 [submodule "bundle/vim-nodejs-complete"]
 	path = bundle/vim-nodejs-complete
 	url = git://github.com/ahayman/vim-nodejs-complete.git
+[submodule "bundle/vim-flow"]
+	path = bundle/vim-flow
+	url = git://github.com/facebook/vim-flow.git
