@@ -31,3 +31,9 @@
 [submodule "bundle/vim-flow"]
 	path = bundle/vim-flow
 	url = git://github.com/facebook/vim-flow.git
+[submodule "bundle/vim-autoformat"]
+	path = bundle/vim-autoformat
+	url = git://github.com/Chiel92/vim-autoformat.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = git://github.com/bling/vim-airline.git
