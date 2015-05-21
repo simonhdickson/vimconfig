@@ -31,6 +31,8 @@ let g:fsharp_interactive_bin = "/usr/bin/fsharpi"
 " jsx
 let g:jsx_ext_required = 0
 let g:syntastic_javascript_checkers = ['jsxhint']
+let g:formatprg_js = "esformatter"
+let g:formatprg_args_js = "--plugins=esformatter-jsx"
 
 " Space setup
 :set tabstop=4
