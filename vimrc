@@ -13,6 +13,9 @@ set nocompatible
 " colours
 set background=dark
 
+" supertab
+let g:SuperTabDefaultCompletionType = "<C-X><C-O>"
+
 " syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
