@@ -41,6 +41,7 @@ let g:formatprg_args_js = "--plugins=esformatter-jsx"
 let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
 execute "set rtp+=" . g:opamshare . "/merlin/vim"
 execute "helptags " . g:opamshare . "/merlin/vim/doc"
+let g:syntastic_ocaml_checkers = ['merlin']
 
 " Space setup
 :set tabstop=4
