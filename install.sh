@@ -7,9 +7,6 @@ cd fsharpbinding/vim
 make install
 cd ../..
 
-# install useful checkers
-npm install -g jshint jsxhint js-beautify
-
 git submodule init
 git submodule update
 

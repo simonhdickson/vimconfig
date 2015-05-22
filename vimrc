@@ -34,6 +34,11 @@ let g:syntastic_javascript_checkers = ['jsxhint']
 let g:formatprg_js = "esformatter"
 let g:formatprg_args_js = "--plugins=esformatter-jsx"
 
+" ocaml
+let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
+execute "set rtp+=" . g:opamshare . "/merlin/vim"
+execute "helptags " . g:opamshare . "/merlin/vim/doc"
+
 " Space setup
 :set tabstop=4
 :set shiftwidth=4
