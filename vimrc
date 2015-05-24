@@ -39,8 +39,8 @@ let g:formatprg_args_js = "--plugins=esformatter-jsx"
 
 " ocaml
 let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
+execute ":source " . g:opamshare . "/vim/syntax/ocp-indent.vim"
 execute "set rtp+=" . g:opamshare . "/merlin/vim"
-execute "helptags " . g:opamshare . "/merlin/vim/doc"
 let g:syntastic_ocaml_checkers = ['merlin']
 
 " Space setup
