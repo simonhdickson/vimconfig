@@ -33,9 +33,12 @@ let g:fsharp_interactive_bin = "/usr/bin/fsharpi"
 
 " jsx
 let g:jsx_ext_required = 0
-let g:syntastic_javascript_checkers = ['jsxhint']
+let g:syntastic_javascript_checkers = ['eslint']
 let g:formatprg_js = "esformatter"
 let g:formatprg_args_js = "--plugins=esformatter-jsx"
+
+"html
+let g:syntastic_html_tidy_exec = 'tidy5'
 
 " ocaml
 let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
