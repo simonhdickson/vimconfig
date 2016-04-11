@@ -28,8 +28,8 @@ let g:syntastic_check_on_wq = 0
 
 " fsharp
 "let g:fsharpbinding_debug = 1 
-let g:fsharp_xbuild_path = "/usr/bin/xbuild"
-let g:fsharp_interactive_bin = "/usr/bin/fsharpi"
+let g:fsharp_xbuild_path = "/usr/local/bin/xbuild"
+let g:fsharp_interactive_bin = "/usr/local/bin/fsharpi"
 
 " jsx
 let g:jsx_ext_required = 0
@@ -42,7 +42,7 @@ let g:syntastic_html_tidy_exec = 'tidy5'
 
 " ocaml
 let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
-execute ":source " . g:opamshare . "/vim/syntax/ocp-indent.vim"
+execute ":source " . g:opamshare . "/ocp-indent/vim/indent/ocaml.vim"
 execute "set rtp+=" . g:opamshare . "/merlin/vim"
 let g:syntastic_ocaml_checkers = ['merlin']
 
