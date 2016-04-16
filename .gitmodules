@@ -7,9 +7,6 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = git://github.com/plasticboy/vim-markdown.git
-[submodule "bundle/vimerl"]
-	path = bundle/vimerl
-	url = git://github.com/jimenezrick/vimerl.git
 [submodule "bundle/vim-colours-solarized"]
 	path = bundle/vim-colours-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
@@ -19,9 +16,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
-[submodule "bundle/rust.vim"]
-	path = bundle/rust.vim
-	url = git://github.com/rust-lang/rust.vim.git
 [submodule "bundle/vim-nodejs-complete"]
 	path = bundle/vim-nodejs-complete
 	url = git://github.com/ahayman/vim-nodejs-complete.git
@@ -46,3 +40,18 @@
 [submodule "bundle/vim-fsharp"]
 	path = bundle/vim-fsharp
 	url = git://github.com/fsharp/vim-fsharp.git
+[submodule "bundle/vaxe"]
+	path = bundle/vaxe
+	url = git://github.com/jdonaldson/vaxe.git
+[submodule "bundle/vim-erlang-runtime"]
+	path = bundle/vim-erlang-runtime
+	url = git://github.com/vim-erlang/vim-erlang-runtime.git
+[submodule "bundle/vim-erlang-compiler"]
+	path = bundle/vim-erlang-compiler
+	url = git://github.com/vim-erlang/vim-erlang-compiler.git
+[submodule "bundle/vim-erlang-omnicomplete"]
+	path = bundle/vim-erlang-omnicomplete
+	url = git://github.com/vim-erlang/vim-erlang-omnicomplete.git
+[submodule "bundle/vim-erlang-tags"]
+	path = bundle/vim-erlang-tags
+	url = git://github.com/vim-erlang/vim-erlang-tags.git
